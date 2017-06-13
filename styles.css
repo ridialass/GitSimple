@@ -1,0 +1,60 @@
+body
+{
+	display:flex;
+	flex-direction: column;
+	background-color: green;
+	width: 900px;
+    margin: auto;
+}
+
+header
+{
+	display: flex;
+	background-color: yellow;
+
+}
+
+nav
+{
+	display: flex;
+	justify-content: baseline;
+}
+element
+{
+	margin: auto;
+	border: 4px black outset;
+}
+
+#banniere_description
+{
+	display: flex;
+	background-image: url ("images/sanfrancisco.jpg");
+	background-repeat: no-repeat;
+	justify-content: stretch;
+}
+
+.bouton_rouge
+{
+	background-color: red;
+}
+
+section
+{
+	display:flex;
+}
+
+.element:nth-child(1)
+{
+    flex: 1;
+}
+
+aside
+{
+	background-color: yellow;
+}
+
+footer
+{
+	display: flex;
+	background-color: red;
+}
